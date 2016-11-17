@@ -1,3 +1,4 @@
+/* output in xml format */
 #include <string.h>
 #include <stdio.h>
 #include "node.h"

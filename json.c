@@ -1,3 +1,4 @@
+/* output in json format */
 #include <string.h>
 #include <stdio.h>
 #include "node.h"
