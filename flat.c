@@ -1,3 +1,7 @@
+/* output json as a.b.c.d value
+ * where a, b, c, and d are nested tags
+ * value can be simple value (string, number, ... ) or an object or array
+ */
 #include <string.h>
 #include <stdio.h>
 #include <alloca.h>
