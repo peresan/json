@@ -1,0 +1,10 @@
+number
+title
+user.login
+assignee.login
+label.1.name
+label.2.name
+label.3.name
+state
+milestone.title
+body
