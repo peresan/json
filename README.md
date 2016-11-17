@@ -8,4 +8,3 @@
  - lisp alike print (-p)
 
  USAGE: json -f|-j|-p|-x|resource [infile.json] [outfile]
-
