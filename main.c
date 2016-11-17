@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
 
   if ((f+j+p+x) == 0 && (res = resources(argv[1], &rescnt)) == 0) return 2;
 
-  if (argc > 2) {
+  if (argc > 2 && strcmp(argv[2], "-") != 0) {
     extern FILE *yyin;
     if ((yyin = fopen(infile = argv[2], "r")) == NULL) {
       perror(argv[2]);
@@ -74,7 +74,7 @@ int main(int argc, char *argv[]) {
   }
 
   outfp = stdout;
-  if (argc > 3)
+  if (argc > 3 && strcmp(argv[3], "-") != 0)
     if ((outfp = fopen(argv[3], "w")) == NULL) {
       perror(argv[3]);
       return 1;
